@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leyes UX/UI Interactivas</title>
+
+    <!-- TailwindCSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="./assetsux/css/styles.css" />
+    
+  </head>
+  <body class="bg-gray-100 text-gray-900 font-sans">
+    <!-- Navbar -->
+    <nav class="bg-indigo-600 text-white px-6 py-4 shadow-md sticky top-0 z-50">
+      <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <h1 class="text-xl font-bold">UX/UI MikeToolkit</h1>
+        <ul class="flex space-x-4">
+          <li><a href="#leyesContainer" class="hover:underline">Leyes UX/UI</a></li>
+          <li><a href="#proximamente" class="hover:underline">+ Conceptos futuros</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Contenido principal -->
+    <main class="p-6 max-w-6xl mx-auto">
+      <h2 class="text-2xl font-bold mb-6">Leyes UX/UI Interactivas</h2>
+      <section
+        id="leyesContainer"
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+      >
+        <!-- Las leyes se cargarán dinámicamente aquí desde JS -->
+      </section>
+      <section id="proximamente" class="mt-20 text-center">
+        <h3 class="text-xl font-semibold mb-2">Próximamente...</h3>
+        <p class="text-gray-600">Secciones para patrones de diseño, heurísticas, wireframes y más.</p>
+      </section>
+    </main>
+    <footer class="text-center p-4 bg-white border-t mt-10">
+      <p>Hecho por Miguel Ángel Lopera Muñoz - 2025</p>
+    </footer>
+		<!-- JS personalizado -->
+    <script defer src="./assetsux/js/script.js"></script>
+  </body>
+</html>
